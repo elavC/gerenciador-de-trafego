@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    height: 130vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    border: none;
+    background-color: #ffffff00;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100px;
+    text-align: end;
+}
+
+section.empresaContent {
+    color: black;
+    width: 70%;
+    height: fit-content;
+    background-color: rgb(1, 148, 148);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.682) 0px 3px 8px;
+    overflow: hidden;
+    margin: auto;
+    display: block;
+}
+
+section .titleEmpresa {
+    background-color: rgba(255, 255, 255, 0.834);
+    padding: 12px 100px;
+    text-align: center;
+}
+
+section .containerBlock {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 90%;
+    justify-content: center;
+    margin: auto;
+    padding: 32px 0 ;
+}
+
+section .containerDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+
+}
+
+section.empresaContent .containerResultado {
+    width: 230px;
+    height: 370px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 10px;
+}
+
+section.empresaContent .containerCampanha {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section.empresaContent .containerCampanha .title {
+    text-align: center;
+}
+
+section.empresaContent .containerCampanha .inforCampanha {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+section.empresaContent .containerCampanha .inforCampanha .containerDados {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.empresaContent .containerCampanha .btn-open {
+    display: flex;
+    justify-content: center;
+}
+
+section.empresaContent .containerCampanha .btn-open button {
+    background-color: rgb(90, 184, 200);
+    color: white;
+    font-weight: bold;
+    padding: 6px 16px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: none;
+}
+
+section.empresaContent .containerCampanha .btn-open button:hover {
+    transform: scale(1.1);
+}
